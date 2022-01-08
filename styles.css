@@ -1,59 +1,108 @@
-html [
+html {
     margin: 0;
     min-height: 100%;
-]
-body [ 
+}
+body { 
     height: 100%;
     font-family: roboto, oxygen, ubuntu, sans-serif;
-]
-ul [
+}
+ul {
     list-style: none;
     margin: 0;
     padding: 0 ;
-]
+}
 
 /*shared between some sections*/
 
-.section center [
+.section center {
     display: flex;
     flex-direction: column;
     max-width: 1440px;
     align-items: center;
-    padding-top: 3rem;]
-]
+    padding-top: 3rem;}
 
-h3 [
+
+h3 {
     font-size: 36px;
     margin-top: 0;
 
-]
-h4 [ 
-    font size: 24px;
-]
+}
+h4 { 
+    font-size: 24px;
+}
 
 /* First section*/
 
-/wrapper [
+.wrapper {
     display: flex;
-    justify-content: center;]
+    justify-content: center;}
 
-    #firstwrapper [ 
-        background; hsl(358, 52%, 25%);
-    ]
-    #thirdwrapper [ background-color: hsl(348, 51% 245%)]
+    #firstwrapper {
+        background: hsla(0, 0%, 3%, 0.87);
+    }
+    #thirdwrapper { background-color: hsl(348, 51% 245%)}
 
-    #first [
+    #first {
         display: flex;
         flex-direction: column;
-        max-widht; 1440px;
+        max-width: 1440px;
         flex: 1;
         padding: 1rem 14rem 7rem;
-        gap; 7rem;
-    ]
+        gap: 7rem;
+    }
     #header,
-    #hero [ 
-        display:flex;
+    #hero {
+        display: flex;
         justify-content: space-between;
-        align-items; center;
-    ]
-    
+        align-items: center;
+    }
+    #headerlogo {font-size: 24px;
+    font-weight: 600;
+    user-select: none;
+    }
+
+    #headernav{
+        display: flex;
+        gap: 2rem;
+    }
+    #headerNav li {
+        user-select: none;
+    }
+
+    #headerNav li:hover {color: #ed4c6c;
+        cursor: pointer; }
+
+        #heroLeft h2,
+        #headerLeft button,
+        #headerLogo {
+            color: white; }
+
+            #hero {
+                gap: 2rem;
+            }
+
+            #heroLeft h2 { 
+                Font-size: 48px;
+                font-weight: 900;
+                margin: 0;
+        } 
+        #heroLeft,
+        #heroRight {
+            flex: 1 1 0;
+            
+        }
+        #heroRight {
+            display: flex;
+            justify-content: center;
+        }
+        #heroRight img {
+            flex: 1;
+            object-fit: cover;
+            max-height: calc(214px + 1rem);
+        }
+        #first li,
+        #first p,
+        #heroRight img {
+            color: hsl(0%, 0%, 93%);
+        }
+
