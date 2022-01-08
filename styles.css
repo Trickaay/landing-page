@@ -43,7 +43,7 @@ h4 {
     #firstWrapper {
         background: hsl(0, 0%, 3%, 0.87);
     }
-    #thirdWrapper { background-color: hsl(348, 51% 245%)}
+    #thirdWrapper { background-color: hsl(120, 51% 245%)}
 
     
 
@@ -113,7 +113,7 @@ h4 {
 /*second section*/
 
 #second h3 {
-    color: hsl(348,52%,38%);
+    color: hsl(120,52%,38%);
     margin-bottom: 3rem;
 }
 
@@ -146,22 +146,22 @@ padding-bottom: 4rem;
         text-align: center;
     }
     #box1 {
-        background-color: hsl(348, 82%, 92%);
+        background-color: hsl(120, 80%, 92%);
 
     }
 
     #box2 {
-        background-color: hsl(348, 51%, 74%);
+        background-color: hsl(120, 52%, 74%);
 
     }
 
     #box3 {
-        background-color: hsl(348, 52%, 50%);
+        background-color: hsl(120, 52%, 50%);
 
     }
 
     #box4 {
-        background-color: hsl(348, 51%, 25%);
+        background-color: hsl(120, 51%, 25%);
 
     }
     /* Third */
@@ -169,7 +169,7 @@ padding-bottom: 4rem;
     .section-center#third {
         padding-inline: 14rem;
         display: flex;
-        background-color: hsl(348, 51%, 25%);
+        background-color: hsl(120, 51%, 25%);
         color: white;
         padding-top: 6rem;
         padding-bottom: 5rem;
@@ -200,7 +200,7 @@ padding-bottom: 4rem;
     align-items: center;
     padding: 3rem;
     padding-inline: 10rem;
-    background-color: hsl(348, 82% 61%);
+    background-color: hsl(120, 82% 61%);
     border-radius: 7px;
     color: white;
     flex: 1;
