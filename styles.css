@@ -1,3 +1,6 @@
+*,
+*::after,
+*::before {box-sizing: border-box:border-box}
 html {
     margin: 0;
     min-height: 100%;
@@ -14,7 +17,7 @@ ul {
 
 /*shared between some sections*/
 
-.section center {
+.section-center {
     display: flex;
     flex-direction: column;
     max-width: 1440px;
@@ -35,12 +38,14 @@ h4 {
 
 .wrapper {
     display: flex;
-    justify-content: center;}
+    justify-content: Left;}
 
-    #firstwrapper {
-        background: hsla(0, 0%, 3%, 0.87);
+    #firstWrapper {
+        background: hsl(0, 0%, 3%, 0.87);
     }
-    #thirdwrapper { background-color: hsl(348, 51% 245%)}
+    #thirdWrapper { background-color: hsl(348, 51% 245%)}
+
+    
 
     #first {
         display: flex;
@@ -56,12 +61,12 @@ h4 {
         justify-content: space-between;
         align-items: center;
     }
-    #headerlogo {font-size: 24px;
+    #headerLogo {font-size: 24px;
     font-weight: 600;
-    user-select: none;
+    
     }
 
-    #headernav{
+    #headerNav{
         display: flex;
         gap: 2rem;
     }
@@ -105,4 +110,167 @@ h4 {
         #heroRight img {
             color: hsl(0%, 0%, 93%);
         }
+/*second section*/
 
+#second h3 {
+    color: hsl(348,52%,38%);
+    margin-bottom: 3rem;
+}
+
+#second {
+    display: flex;
+        flex-direction: column;
+    padding-top: 4rem;
+padding-bottom: 4rem;
+}
+.randomInfoBox {
+    width: 170px;
+    height: 170px;
+    border-radius: 7px;}
+
+    #randomInfoWrapper {
+        display: flex;
+        gap: 2rem;  
+    }
+
+    .randomInfo li {
+        color: hsl(0, 0%, 38%);
+    }
+
+    .randomInfo {
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 170px;
+        text-align: center;
+    }
+    #box1 {
+        background-color: hsl(348, 82%, 92%);
+
+    }
+
+    #box2 {
+        background-color: hsl(348, 51%, 74%);
+
+    }
+
+    #box3 {
+        background-color: hsl(348, 52%, 50%);
+
+    }
+
+    #box4 {
+        background-color: hsl(348, 51%, 25%);
+
+    }
+    /* Third */
+
+    .section-center#third {
+        padding-inline: 14rem;
+        display: flex;
+        background-color: hsl(348, 51%, 25%);
+        color: white;
+        padding-top: 6rem;
+        padding-bottom: 5rem;
+        gap: 2rem;
+
+    }
+    .section-center#third h3 {
+        margin-bottom: o;
+        font-weight: 500;
+    }
+
+    .section-center#third h4 {
+        margin: 0;
+        align-self: flex-end;
+}
+
+/* Fourth Section */
+
+.Section-center#fourth {
+    padding-inline: 14 rem;
+    margin: auto;
+
+}
+
+#cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    padding-inline: 10rem;
+    background-color: hsl(348, 82% 61%);
+    border-radius: 7px;
+    color: white;
+    flex: 1;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+#cta-left h4{
+    margin: 0;
+}
+
+#cta-left p{
+    margin: 0;
+}
+
+#cta-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+#cta-butto {
+    background-color: inheirt;
+    color: white;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding-inline: 2rem;
+}
+#signUp {
+    padding-inline: 2rem;
+    padding-block: 7px;
+    outline: nonr;
+    border-radius: 7px;
+    font-weight: 500;
+    background-color: ed5c6c;
+    color: white;
+}
+.signUp-hero {
+    border: 0;
+}
+#signUp:hover {
+cursor: pointer;
+}
+.signUp-cta {
+    border: 2px solid white;
+    }
+    .signUp:hover {
+        background-color: rgb(255, 255, 255);
+        color: #ed4c6c;
+           }
+
+           /* footer */
+           a {
+               text-decoration: none;
+               color: white;
+           }
+           a:hover {
+               color: #000000;
+        }
+
+        #footer {
+            gap: 7px;
+            color: white;
+            background-color: hsl(0, 0%, 0%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-inline: 14rem;
+            padding-block: 2rem;
+
+        }
