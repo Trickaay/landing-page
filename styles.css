@@ -21,3 +21,39 @@ ul [
     align-items: center;
     padding-top: 3rem;]
 ]
+
+h3 [
+    font-size: 36px;
+    margin-top: 0;
+
+]
+h4 [ 
+    font size: 24px;
+]
+
+/* First section*/
+
+/wrapper [
+    display: flex;
+    justify-content: center;]
+
+    #firstwrapper [ 
+        background; hsl(358, 52%, 25%);
+    ]
+    #thirdwrapper [ background-color: hsl(348, 51% 245%)]
+
+    #first [
+        display: flex;
+        flex-direction: column;
+        max-widht; 1440px;
+        flex: 1;
+        padding: 1rem 14rem 7rem;
+        gap; 7rem;
+    ]
+    #header,
+    #hero [ 
+        display:flex;
+        justify-content: space-between;
+        align-items; center;
+    ]
+    
